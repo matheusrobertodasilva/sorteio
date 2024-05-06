@@ -31,7 +31,7 @@
 <template>
     <transition>
         <section class="h-[80vh] flex justify-center items-center">
-            <translation class="v-enter-active" appear>
+            <translation class="v-enter-active .v-leave-active" appear>
                 <div class="bg-slate-500 p-20 rounded-full">
                     <span class="text-[100px]  font-bold m-12">
                         {{contador}}
@@ -44,11 +44,11 @@
 
 <style>
     .v-enter-active {
-        animation: entrada 2s ease-in-out;
+        animation: entrada 1s ease-in-out;
     }
 
     .v-leave-active {
-        animation: saida 2s ease-in-out;
+        animation: saida 1s ease-in-out;
     }
 
     @keyframes entrada {
