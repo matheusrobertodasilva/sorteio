@@ -30,7 +30,7 @@
 
 <template>
     <transition>
-        <section class="h-[80vh] flex justify-center items-center">
+        <section class="h-[70vh] flex justify-center items-center">
             <translation class="v-enter-active .v-leave-active" appear>
                 <div class="bg-slate-500 p-20 rounded-full">
                     <span class="text-[100px]  font-bold m-12">

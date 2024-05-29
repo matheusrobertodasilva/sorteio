@@ -1,5 +1,5 @@
 <template>
-    <section class="h-[80vh] flex justify-center items-center">
+    <section class="h-[70vh] flex justify-center items-center">
         <transition class="v-enter-active .v-leave-active" appear>
             <div class="bg-slate-600 p-5 rounded-lg space-y-10">
                 <h1 class="font-bold text-center text-[50px]">Ganhador(a)</h1>
